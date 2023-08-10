@@ -1,0 +1,36 @@
+header{
+    padding: 1rem 1.5rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom, var(--clr-bg) 50%, transparent);
+    background-color: var(--clr-bg-90);
+    border-bottom: 1px solid var(--clr-gray-alt);
+    z-index: 1000;
+}
+
+
+.nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.nav-list a{
+text-decoration: none;
+}
+
+.content-navbar-btns{
+    display: flex;
+    align-items: flex-start;
+    width: 7rem;
+    justify-content: space-between;
+}

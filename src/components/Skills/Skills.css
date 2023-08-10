@@ -1,0 +1,26 @@
+
+.skills-list {
+    gap: 0.5rem;
+    margin-top: 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    column-gap: 1rem;
+    row-gap: 0.5rem;
+}
+
+
+.skill {
+    background-color: var(--clr-gray-alt);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--clr-gray);
+    transition: .2s;
+    cursor: pointer;
+
+}
+
+.skill:hover{
+    border-color: var(--clr-details);
+}

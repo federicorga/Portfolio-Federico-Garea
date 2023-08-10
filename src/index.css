@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; /* Esto activa el desplazamiento suave */
+}
+
+body{
+    background-color: var(--clr-bg);
+background-image: url('../public/img/noise.png');
+color: var(--clr-text);
+font-family: var(--ff-text);
+
+
+}
+
+
+
+:root{
+        /* VARIABLES */
+        --ff-mono: 'DM Mono', monospace;
+        --ff-title: 'Unbounded', sans-serif;
+        --ff-text: 'Rubik', sans-serif;
+        --clr-bg: #ececec;
+        --clr-bg-90: #ececece6;
+        --clr-text: #1c1c1c;
+        --clr-gray: #bababa;
+        --clr-gray-alt: #e0e0e0;
+        --clr-details: #4d7be6;
+    }
+    
+    /* VARIABLES DARK */
+    [data-theme="dark"] {
+        --clr-bg: #1c1c1c;
+        --clr-bg-90: #1c1c1ce6;
+        --clr-text: #ececec;
+        --clr-gray: #606060;
+        --clr-gray-alt: #2d2d2d;
+    }
+    
+
+    

@@ -1,0 +1,42 @@
+
+.btnIndice::before {
+    content: '<';
+    color: var(--clr-gray);
+    display: inline-block;
+    transition: color .2s, transform .1s .2s;}
+
+.btnIndice{
+    color: var(--clr-text);
+    font-family: var(--ff-mono);
+    text-transform: lowercase;
+    font-size: 1.2rem;
+    transition: color .2s;
+    display: flex;
+    cursor: pointer;
+
+}
+
+
+.btnIndice::after {
+    content: '/>';
+    color: var(--clr-gray);
+    display: inline-block;
+    transition: color .2s, transform .1s .2s;}
+
+
+    @media (hover: hover) {
+        .btnIndice:hover {
+            color: var(--clr-details);
+        }
+    
+        .btnIndice:hover::before {
+            color: var(--clr-text);
+            transform: translateX(-.5rem);
+        }
+    
+        .btnIndice:hover::after {
+            color: var(--clr-text);
+            transform: translateX(.5rem);
+        }
+    }
+    
