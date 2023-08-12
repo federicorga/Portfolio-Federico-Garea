@@ -9,3 +9,11 @@
     margin-right: auto;
     color: var(--clr-details);
 }
+
+
+@media screen and (max-width: 550px){
+
+    /*Section Profile*/
+    .divArticles {
+        grid-template-columns: 1fr;}
+}

@@ -88,3 +88,12 @@
     position: relative;
     padding-top: 8rem;
 }
+
+
+@media screen and (max-width: 550px){
+    .divProfile {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}

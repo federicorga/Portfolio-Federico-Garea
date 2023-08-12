@@ -1,6 +1,7 @@
 .section-main{
-margin-left: 130px;
-margin-right: 130px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 1.5rem;
 }
 
 .sect-btn-header-link{
@@ -30,3 +31,6 @@ footer p{
     margin-left: auto;
     color: var(--clr-gray);
 }
+
+
+
