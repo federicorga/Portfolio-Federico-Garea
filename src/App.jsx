@@ -32,7 +32,7 @@ function App() {
   <div><p>Federico Garea</p></div>
   </footer>
   </section>
- 
+  
   </>
 
 )
