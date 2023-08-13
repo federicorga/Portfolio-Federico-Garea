@@ -6,7 +6,7 @@ function SectionSkills() {
   return (
     <>
     <Title id='skills' text='Skills'/>
-    <p  className="textDescrp">De las habilidades que poseeo, destaco algunas de ellas. Actualmente continuo en constante desarrollo.</p>
+    <p  className="textDescrp">De las habilidades que poseo, destaco algunas de ellas. Actualmente continuo en constante desarrollo.</p>
     <h2 className='TitleSectSkill'>SKILLS</h2> 
     <h3 className="subTitleSectSkill">Frontend</h3>
     <Skills arraySkills={['HTML','CSS','SASS', 'JavaScript', 'React','Boostrap', 'Git', 'GitHub & GitLab','FireBase', 'Filezilla','Diseño responsive', 'Accesibilidad web', 'SEO' ,'Librerías & Frameworks']} />
@@ -17,7 +17,7 @@ function SectionSkills() {
     <Skills arraySkills={['Visual Studio', 'Visual Studio Code','Postman','Filezilla','Microsoft Office','Docker Desktop', 'Adobe Photoshop','Adobe Ilustraitor' ]} />
 
     <h2 className='TitleSectSkill'>IDIOMA</h2>
-    <Skills arraySkills={['Español(Nativo)', 'Ingles(tecnico)' ]} />
+    <Skills arraySkills={['Español(Nativo)', 'Ingles(Técnico)' ]} />
 
     <Subtitle text='Skills'/>
     

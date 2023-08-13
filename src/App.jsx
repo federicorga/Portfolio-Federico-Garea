@@ -16,7 +16,6 @@ function App() {
 
   return (
 <>
-
   <Navbar/>
 <section className='section-main'>
 
@@ -34,7 +33,6 @@ function App() {
   </footer>
   </section>
  
-
   </>
 
 )
