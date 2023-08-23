@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
         <nav className={`nav ${isMenuOpen ? 'active' : ''}`}>
         <button className='close-button' onClick={toggleMenu}>
-        <svg className='btn-link' width={20} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg className='btn-link' width={20} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label='Button Menu'>
     <path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6L6.4 19Z"/>
     </svg>
 
@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <BtnLink imagSvg={iconLinkedIn} Href='https://www.linkedin.com/in/federicogarea/' viewbox='0 0 24 24' />
         <BtnLink imagSvg={iconGitHub} Href='https://github.com/federicorga' viewbox='0 0 24 24' />
-          <BtnDarkMode />
+        <BtnDarkMode />
         </div>
       
        

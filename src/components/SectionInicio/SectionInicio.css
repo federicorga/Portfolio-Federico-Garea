@@ -17,7 +17,7 @@
 
 .imgProfile{
     background-color: var(--clr-details);
-    background-image: url('../../../public/img/noise.png');
+    background-image: url('../../../public/img/noise.webp');
     border-radius: 1rem;
     transform: scale(.70) translateY(-1rem);
     display: flex;
@@ -38,7 +38,7 @@
 .nameProfile{
     font-family: var(--ff-text);
     background-color: var(--clr-details);
-    background-image: url('../../../public/img/noise.png');
+    background-image: url('../../../public/img/noise.webp');
     color: var(--clr-text);
     width: max-content;
     font-weight: 600;

@@ -13,7 +13,7 @@ function Inicio() {
       < div className='divProfile'>
       <div>
         <div className="imgProfile">
-          <img src="./img/fsinfond.png" alt="fotoPerfil"/>
+          <img src="./img/fsinfond.webp" alt="fotoPerfil"/>
         </div>
         </div>
       <div> 
