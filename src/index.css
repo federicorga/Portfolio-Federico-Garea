@@ -30,6 +30,7 @@ body {
     --clr-gray: #bababa;
     --clr-gray-alt: #e0e0e0;
     --clr-details: #4d7be6;
+    --filtro-invert: none;
 }
 
 /* VARIABLES DARK */
@@ -39,6 +40,7 @@ body {
     --clr-text: #ececec;
     --clr-gray: #606060;
     --clr-gray-alt: #2d2d2d;
+    --filtro-invert: invert(100%);
 }
 
 
@@ -58,3 +60,4 @@ body {
     background-color: var(--clr-bg);
     border-radius: 10px;
 }
+
