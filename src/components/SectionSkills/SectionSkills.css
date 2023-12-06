@@ -13,3 +13,9 @@
     flex-wrap: wrap;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 550px){
+    .iconsDiv{
+        justify-content: center;
+    }
+}

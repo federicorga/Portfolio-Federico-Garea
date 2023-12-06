@@ -11,6 +11,8 @@
 
 }
 
+
+
 .divProfile{
     display: flex;
 }
@@ -96,4 +98,12 @@
         flex-direction: column-reverse;
         align-items: center;
     }
+    .text-box-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-Profesion{
+        text-align:center;
+    } 
 }

@@ -10,7 +10,7 @@ function SectionPortfolio() {
     <Title id='portfolio' text='Portfolio'/>
     <p className='textDescrp'>De algunos proyectos que se encuentran en el repositorio, aquí hay una selección de los más relevantes.</p>
     <div className='divArticles'>
-    <Article titleProyect='Gamer-Zone JavaScript' textP='E-commerce para la venta videojuegos.' 
+    <Article  titleProyect='Gamer-Zone JavaScript' textP='E-commerce para la venta videojuegos.' 
     iconLink={ [<BtnLink imagSvg={iconGitHub} Href='https://github.com/federicorga/Ecommerce-Game-JavaScript' toolTip='ver repositorio'/>,<BtnLink imagSvg={iconlink} viewbox='0 0 24 24' Href='https://federicorga.github.io/Ecommerce-Game-JavaScript/' toolTip='ver deploy'/>]} skills={['HTML','CSS', 'JavaScript', 'Librerias']} />
     <Article titleProyect='Fichero-IT' textP='Página de sitios web para programadores y diseñadores. 🚀'
     iconLink={ [<BtnLink imagSvg={iconGitHub} Href='https://github.com/federicorga/FicheroIT' toolTip='ver repositorio'/>,<BtnLink imagSvg={iconlink} viewbox='0 0 24 24' Href='https://ficheroit.netlify.app/' toolTip='ver deploy'/>]} skills={['HTML','CSS','SASS', 'JavaScript', 'Librerias']} />

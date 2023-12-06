@@ -2,6 +2,14 @@
 [data-tooltip] {
     display: flex;
     position: relative;
+    align-items: center;
+}
+
+.title-btn-icon{
+    font-size: 0.7rem;
+    margin-left: 5px;
+    color: var(--clr-text);
+    font-family: var(--ff-text);
 }
 
 [data-tooltip]::after {
@@ -70,3 +78,4 @@ button {
                 0 0 50px #008cff,
                 0 0 100px #008cff;
   }
+  
