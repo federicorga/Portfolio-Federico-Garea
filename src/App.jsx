@@ -39,7 +39,8 @@ function App() {
                 <BtnLink imagSvg={iconGitHub} Href="https://github.com/federicorga" toolTip="Repositorio" />
               </div>
               <div>
-                <p>Federico Garea</p>
+                <p>Federico Garea - Powered in React</p>
+                
               </div>
             </footer>
           </section>

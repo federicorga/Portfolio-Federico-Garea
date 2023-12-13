@@ -3,11 +3,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    
 }
 
 .folderPortfolio{
     margin-right: auto;
     color: var(--clr-details);
+    
 }
 
 
@@ -17,3 +19,7 @@
     .divArticles {
         grid-template-columns: 1fr;}
 }
+
+
+
+
