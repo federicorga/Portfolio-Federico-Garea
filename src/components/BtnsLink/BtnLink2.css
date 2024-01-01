@@ -1,0 +1,32 @@
+.a-BtnLink2{
+    margin: 7px;
+    cursor: pointer;
+    border: 0.5px solid rgb(53 53 53 / 28%);
+    height: 41px;
+    border-radius: 99999px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    padding: 12px;
+    text-decoration: none;
+    color: var(--clr-text);
+    background-color: var(--clr-backgrounds);
+    transition: 0.5s;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.btn-link2{
+    font-size: 2.4rem;
+    color: var(--clr-text);
+    transition: .2s;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.a-BtnLink2:hover{
+    transform: scale(1.1);
+}
+.a-BtnLink2:active{
+    transform: scale(0.9);
+}

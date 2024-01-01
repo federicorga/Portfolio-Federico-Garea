@@ -30,7 +30,7 @@ const Navbar = () => {
 
               <a href="#inicio" onClick={toggleMenu}> <BtnIndice text={'Inicio'}/></a>
               <a href="#skills"onClick={toggleMenu}> <BtnIndice text={'Skills'}/></a>
-              <a href="#portfolio"onClick={toggleMenu}> <BtnIndice text={'Portfolio'}/></a>
+              <a href="#portfolio"onClick={toggleMenu}> <BtnIndice text={'Proyectos'}/></a>
               <a href="#contacto"onClick={toggleMenu}> <BtnIndice text={'Contacto'}/></a>
             </ul>
         

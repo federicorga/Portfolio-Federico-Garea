@@ -27,8 +27,12 @@ function App() {
       ) : (
         <>
           <Navbar />
+       
+         
+         
           <section className="section-main">
-            <SectionInicio />
+           
+          <SectionInicio />
             <SectionSkills />
             <SectionPortfolio />
             <SectionContact />

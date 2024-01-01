@@ -27,6 +27,8 @@ body {
     --clr-bg: #ececec;
     --clr-bg-90: #ececece6;
     --clr-text: #1c1c1c;
+    --clr-border:rgb(86 84 84 / 30%);
+    --clr-backgrounds:none;
     --clr-gray: #bababa;
     --clr-gray-alt: #e0e0e0;
     --clr-details: #4d7be6;
@@ -38,6 +40,8 @@ body {
     --clr-bg: #1c1c1c;
     --clr-bg-90: #1c1c1ce6;
     --clr-text: #ececec;
+    --clr-backgrounds:#64646440;
+    --clr-border:rgb(86 84 84 / 30%);
     --clr-gray: #606060;
     --clr-gray-alt: #2d2d2d;
     --filtro-invert: invert(100%);

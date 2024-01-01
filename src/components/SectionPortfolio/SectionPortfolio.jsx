@@ -7,7 +7,7 @@ import { iconGitHub,iconlink } from '../../icons';
 function SectionPortfolio() {
   return (
     <>
-    <Title id='portfolio' text='Portfolio'/>
+    <Title id='portfolio' text='Proyectos'/>
     <p className='textDescrp'>De algunos proyectos que se encuentran en el repositorio, aquí hay una selección de los más relevantes.</p>
     <div className='divArticles'>
     <Article  titleProyect='Gamer-Zone JavaScript' textP='E-commerce para la venta videojuegos.' 
@@ -21,7 +21,7 @@ function SectionPortfolio() {
     </div>
    
 
-    <Subtitle text='Portfolio'/>
+    <Subtitle text='Proyectos'/>
       
     </>
   );
