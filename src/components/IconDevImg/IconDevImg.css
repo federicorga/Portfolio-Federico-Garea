@@ -3,6 +3,8 @@
     display: flex;
     position: relative;
     align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .title-btn-icon{
@@ -65,14 +67,20 @@ button {
     transition: 0.5s ease;
     user-select: none;
   }
+
+  .btn{
+    width: 200px;
+  }
+
+
   
   .btn:hover {
     color: #ffffff;
     background: #008cff;
     border: 1px solid #008cff;
-    text-shadow: 0 0 5px #ffffff,
-                0 0 10px #ffffff,
-                0 0 20px #ffffff;
+    text-shadow: 0 0 5px var(--clr-shadown-btn),
+                0 0 10px var(--clr-shadown-btn),
+                0 0 20px var(--clr-shadown-btn);
     box-shadow: 0 0 5px #008cff,
                 0 0 20px #008cff,
                 0 0 50px #008cff,

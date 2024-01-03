@@ -20,7 +20,7 @@ body {
 
 
 :root {
-    /* VARIABLES */
+    /* VARIABLES WHITE */
     --ff-mono: 'DM Mono', monospace;
     --ff-title: 'Unbounded', sans-serif;
     --ff-text: 'Rubik', sans-serif;
@@ -32,6 +32,7 @@ body {
     --clr-gray: #bababa;
     --clr-gray-alt: #e0e0e0;
     --clr-details: #4d7be6;
+    --clr-shadown-btn:#FFFF;
     --filtro-invert: none;
 }
 
@@ -44,6 +45,7 @@ body {
     --clr-border:rgb(86 84 84 / 30%);
     --clr-gray: #606060;
     --clr-gray-alt: #2d2d2d;
+    --clr-shadown-btn:#5f5e5e;
     --filtro-invert: invert(100%);
 }
 
