@@ -24,6 +24,8 @@ body {
     --ff-mono: 'DM Mono', monospace;
     --ff-title: 'Unbounded', sans-serif;
     --ff-text: 'Rubik', sans-serif;
+    --clr-textspan1:#387da9;
+    --clr-textspan2:#828430;
     --clr-bg: #ececec;
     --clr-bg-90: #ececece6;
     --clr-text: #1c1c1c;
@@ -38,6 +40,8 @@ body {
 
 /* VARIABLES DARK */
 [data-theme="dark"] {
+    --clr-textspan1:#96a8c9;
+    --clr-textspan2:#faeca5;
     --clr-bg: #1c1c1c;
     --clr-bg-90: #1c1c1ce6;
     --clr-text: #ececec;

@@ -76,6 +76,14 @@
     font-size: 1.4rem;
     
 }
+
+.text-span1{
+color: var(--clr-textspan1)
+}
+
+.text-span2{
+    color: var(--clr-textspan2)
+}
 .pMasInfo{
     display: flex;
     flex-direction: row;

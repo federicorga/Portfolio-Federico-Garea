@@ -41,26 +41,27 @@ function SectionSkills() {
   return (
     <>
     <Title id='skills' text='Skills'/>
-    <p  className="textDescrp">De las habilidades que poseo, destaco algunas de ellas. Actualmente continúo en constante desarrollo.</p>
+    <p  className="textDescrp">Estas son las habilidades que poseo actualmente. Aunque me apasiona aprender y mantenerme al tanto de las últimas tendencias y tecnologías, por lo que sigo en constante desarrollo.</p>
     <h2 className='TitleSectSkill'>SKILLS</h2>
     <h3 className="subTitleSectSkill">Frontend/Backend</h3>
     <div className='iconsDiv'>
-    <IconDevImg imgUrl={icoHtml} title='HTML5'/>
-    <IconDevImg imgUrl={icoCss} title='CSS3'/>
+    <IconDevImg imgUrl={icoGit} title='GIT'/>
+    <IconDevImg imgUrl={iconCsharp} title='CSHARP'/>
+    <IconDevImg imgUrl={icoNodeJs} title='NODEJS'/>
     <IconDevImg imgUrl={icoJs} title='JAVASCRIPT'/>
     <IconDevImg imgUrl={icoRea} title='REACT'/>
-    <IconDevImg imgUrl={icoNodeJs} title='NODEJS'/>
-    <IconDevImg imgUrl={iconCsharp} title='CSHARP'/>
-    <IconDevImg imgUrl={icoFullResponive} title='DISEÑO RESPONSIVE'/>
+    <IconDevImg imgUrl={icoMon} title='MONGODB'/>
+    <IconDevImg imgUrl={icoFir} title='FIREBASE'/>
+    <IconDevImg imgUrl={icoDocker} title='DOCKER'/>
+    <IconDevImg imgUrl={icoHtml} title='HTML5'/>
+    <IconDevImg imgUrl={icoCss} title='CSS3'/>
+    <IconDevImg imgUrl={icoSas} title='SASS'/>
     <IconDevImg imgUrl={icoGitHub} title='GITHUB'clase='img-Filter'/>
     <IconDevImg imgUrl={icoGitLab} title='GITLAB'/>
+    <IconDevImg imgUrl={icoFullResponive} title='DISEÑO RESPONSIVE'/>
     <IconDevImg imgUrl={icoNpm} title='NPM'/>
     <IconDevImg imgUrl={icoBoo} title='BOOSTRAP'/>
-    <IconDevImg imgUrl={icoSas} title='SASS'/>
     <IconDevImg imgUrl={icoHan} title='HANDLEBARS' clase='img-Filter'/>
-    <IconDevImg imgUrl={icoFir} title='FIREBASE'/>
-    <IconDevImg imgUrl={icoMon} title='MONGODB'/>
-    <IconDevImg imgUrl={icoDocker} title='DOCKER'/>
     <IconDevImg imgUrl={icoExpress} title='EXPRESS'clase='img-Filter'/>
     <IconDevImg imgUrl={icoSocketio} title='SOCKETIO'clase='img-Filter'/>
     <IconDevImg imgUrl={icoPassport} title='PASSPORT'/>
@@ -76,16 +77,17 @@ function SectionSkills() {
     
     <h2 className='TitleSectSkill'>SOFTWARE</h2>
     <div className='iconsDiv'>
-    <IconDevImg imgUrl={icoPhotoshop} title='PHOTOSHOP'/>
-    <IconDevImg imgUrl={icoAillustraitor} title='ILLUSTRAITOR'/>
-    <IconDevImg imgUrl={icoOffice} title='MICROSOFT OFFICE'/>
     <IconDevImg imgUrl={icoVisualStudio} title='VISUAL STUDIO'/>
     <IconDevImg imgUrl={icoVisualCode} title='VISUAL STUDIO CODE'/>
-    <IconDevImg imgUrl={icoResponsively} title='RESPONSIVELY'/>
     <IconDevImg imgUrl={icoGit} title='GIT'/>
     <IconDevImg imgUrl={icoPostman} title='POSTMAN'/>
     <IconDevImg imgUrl={icoDocker} title='DOCKER'/>
     <IconDevImg imgUrl={icoFileZ} title='FILEZILLA'/>
+    <IconDevImg imgUrl={icoResponsively} title='RESPONSIVELY'/>
+    <IconDevImg imgUrl={icoPhotoshop} title='PHOTOSHOP'/>
+    <IconDevImg imgUrl={icoAillustraitor} title='ILLUSTRAITOR'/>
+    <IconDevImg imgUrl={icoOffice} title='MICROSOFT OFFICE'/>
+    
     </div>
 
     <h2 className='TitleSectSkill'>IDIOMA</h2>

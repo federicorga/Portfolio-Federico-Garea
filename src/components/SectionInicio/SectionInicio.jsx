@@ -45,9 +45,9 @@ function Inicio() {
       <h2 className='title-Name'>Hey, soy Federico</h2>
       <h2 className='title-Profesion'>Desarrollador FullStack Jr</h2>
       
-      <p className='textDescrp'>Un apasionado Programador de Argentina 🇦🇷 .</p>
-      <p className='textDescrp'>Mi experiencia actual se centra en el desarrollo de Páginas Web y aplicaciones.</p>
-      <p className='textDescrp'>Estoy en búsqueda activa de empleo y entusiasmado con la posibilidad de aplicar mis habilidades en una empresa.</p>
+      <p className='textDescrp'>Un apasionado Programador de <span className='text-span1'>Argentina 🇦🇷</span>.</p>
+      <p className='textDescrp'>Mi experiencia actual se centra en el <span className='text-span2'>Desarrollo de Páginas Web y aplicaciones</span>.</p>
+      <p className='textDescrp'><span className='text-span3'>Estoy en búsqueda activa de empleo y entusiasmado con la posibilidad de aplicar mis habilidades en una empresa</span>.</p>
  
      
       <div className='pMasInfo'>
