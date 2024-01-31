@@ -37,7 +37,7 @@ const icoPhotoshop='https://raw.githubusercontent.com/devicons/devicon/1119b9f84
 const icoAillustraitor='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/illustrator/illustrator-plain.svg'
 const icoOffice='https://img.icons8.com/?size=512&id=vIbsCQXkSp6l&format=png'
 const icoPostman='https://img.icons8.com/?size=512&id=EPbEfEa7o8CB&format=png'
-const icoResponsively='https://camo.githubusercontent.com/3b8a4bc405953a4dd159fb6a5116138208ff6b1b4810feae6f139f458ca8cba9/68747470733a2f2f726573706f6e736976656c792e6170702f6173736574732f696d672f6c6f676f2e706e67'
+const icoResponsively='https://avatars.githubusercontent.com/u/69102126?s=200&v=4'
 
 export{icoHtml,
     icoCss,

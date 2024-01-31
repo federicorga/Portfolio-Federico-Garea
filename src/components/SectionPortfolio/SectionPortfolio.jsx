@@ -10,8 +10,8 @@ function SectionPortfolio() {
     <Title id='portfolio' text='Proyectos'/>
     <p className='textDescrp'>De algunos proyectos que se encuentran en mi repositorio, aquí hay una selección de los más relevantes. Puedes ver los que faltan ingresando a GitHub.</p>
     <div className='divArticles'>
-    <Article  titleProyect='Lemuris NFT-Cripto' textP='Es una pagina para la visualizacion y adquisicion de NFTs artisticos. Construido con Html y css' 
-    iconLink={ [<BtnLink imagSvg={iconGitHub} Href='https://github.com/federicorga/Lemuris' toolTip='ver repositorio'/>,<BtnLink imagSvg={iconlink} viewbox='0 0 24 24' Href='https://federicorga.github.io/Lemuris/' toolTip='ver deploy'/>]} skills={['HTML','CSS', 'Librerias']} />
+    <Article  titleProyect='SunSound NFT' textP='Es una pagina con contenido Elearning, ademas de Artistas y sus obras musicales representadas en NFTs , ' 
+    iconLink={ [<BtnLink imagSvg={iconGitHub} Href='https://sunsound.netlify.app/' toolTip='ver repositorio'/>,<BtnLink imagSvg={iconlink} viewbox='0 0 24 24' Href='https://github.com/federicorga/SunSound' toolTip='ver deploy'/>]} skills={['HTML','CSS','JavaScript', 'Librerias']} />
     <Article  titleProyect='Gamer-Zone Frontend JavaScript' textP='E-commerce para la venta videojuegos construido con Javascript.' 
     iconLink={ [<BtnLink imagSvg={iconGitHub} Href='https://github.com/federicorga/Ecommerce-Game-JavaScript' toolTip='ver repositorio'/>,<BtnLink imagSvg={iconlink} viewbox='0 0 24 24' Href='https://federicorga.github.io/Ecommerce-Game-JavaScript/' toolTip='ver deploy'/>]} skills={['HTML','CSS', 'JavaScript', 'Librerias']} />
     <Article  titleProyect='Venta de entradas - Servidor API FullStack' textP='Un Servidor para la compra de entrada donde utilizo multiples herramientas terminado.Construido con NodeJS, Cuenta con registro de usuario, una api que se conecta a una base de datos de MongoDB, test de rendimineto, etc. ' 
