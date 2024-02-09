@@ -26,6 +26,8 @@ body {
     --ff-text: 'Rubik', sans-serif;
     --clr-textspan1:#387da9;
     --clr-textspan2:#828430;
+    --clr-text2o: #387da9;
+    --clr-text4o:#4d7be6;
     --clr-bg: #ececec;
     --clr-bg-90: #ececece6;
     --clr-text: #1c1c1c;
@@ -34,8 +36,10 @@ body {
     --clr-gray: #bababa;
     --clr-gray-alt: #e0e0e0;
     --clr-details: #4d7be6;
+    --clr-colorfondobtn:#008cff;
     --clr-shadown-btn:#FFFF;
     --filtro-invert: none;
+   
 }
 
 /* VARIABLES DARK */
