@@ -38,8 +38,11 @@ const icoAillustraitor='https://raw.githubusercontent.com/devicons/devicon/1119b
 const icoOffice='https://img.icons8.com/?size=512&id=vIbsCQXkSp6l&format=png'
 const icoPostman='https://img.icons8.com/?size=512&id=EPbEfEa7o8CB&format=png'
 const icoResponsively='https://avatars.githubusercontent.com/u/69102126?s=200&v=4'
+const icoSQLServer='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg'
 
-export{icoHtml,
+export{
+    icoSQLServer,
+    icoHtml,
     icoCss,
     icoBoo,
     icoSas,

@@ -36,7 +36,9 @@ import {icoHtml,
   icoOffice,
   icoPostman,
   icoSwagger,
-  icoResponsively} from '../imgDevIcon.js';
+  icoResponsively,
+  icoSQLServer
+} from '../imgDevIcon.js';
 function SectionSkills() {
   return (
     <>
@@ -48,6 +50,7 @@ function SectionSkills() {
     <div className='iconsDiv'>
     <IconDevImg imgUrl={iconCsharp} title='CSHARP'/>
     <IconDevImg imgUrl={icoNodeJs} title='NODEJS'/>
+    <IconDevImg imgUrl={icoSQLServer} title='SQL SERVER'/>
     <IconDevImg imgUrl={icoMon} title='MONGODB'/>
     <IconDevImg imgUrl={icoFir} title='FIREBASE'/>
     <IconDevImg imgUrl={icoDocker} title='DOCKER'/>
@@ -82,6 +85,7 @@ function SectionSkills() {
     <IconDevImg imgUrl={icoGitLab} title='GITLAB'/>
     <IconDevImg imgUrl={icoVisualStudio} title='VISUAL STUDIO'/>
     <IconDevImg imgUrl={icoVisualCode} title='VISUAL STUDIO CODE'/>
+    <IconDevImg imgUrl={icoSQLServer} title='SQLSERVER MAGNAMENT STUDIO'/>
     <IconDevImg imgUrl={icoMon} title='MONGODBCOMPASS'/>
     <IconDevImg imgUrl={icoPostman} title='POSTMAN'/>
     <IconDevImg imgUrl={icoDocker} title='DOCKER'/>
