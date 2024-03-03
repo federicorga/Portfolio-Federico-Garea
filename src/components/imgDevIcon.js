@@ -30,6 +30,7 @@ const icoPassport='https://www.passportjs.org/images/logo.svg'
 const icoArtillery='https://avatars.githubusercontent.com/u/12608521?s=280&v=4'
 const icoFullResponive='https://img.icons8.com/?size=512&id=J2dBOvzdU328&format=png'
 const icoSwagger='https://static-00.iconduck.com/assets.00/swagger-icon-512x512-halz44im.png'
+const icoFigma='https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/figma/figma-original.svg'
 //Software
 const icoVisualStudio='https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/visualstudio/visualstudio-plain.svg'
 const icoVisualCode='https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/vscode/vscode-original.svg'
@@ -40,7 +41,9 @@ const icoPostman='https://img.icons8.com/?size=512&id=EPbEfEa7o8CB&format=png'
 const icoResponsively='https://avatars.githubusercontent.com/u/69102126?s=200&v=4'
 const icoSQLServer='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg'
 
+
 export{
+    icoFigma,
     icoSQLServer,
     icoHtml,
     icoCss,

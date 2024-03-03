@@ -37,7 +37,8 @@ import {icoHtml,
   icoPostman,
   icoSwagger,
   icoResponsively,
-  icoSQLServer
+  icoSQLServer,
+  icoFigma
 } from '../imgDevIcon.js';
 function SectionSkills() {
   return (
@@ -71,7 +72,8 @@ function SectionSkills() {
     <IconDevImg imgUrl={icoRea} title='REACT'/>
     <IconDevImg imgUrl={icoHtml} title='HTML5'/>
     <IconDevImg imgUrl={icoCss} title='CSS3'/>
-    <IconDevImg imgUrl={icoSas} title='SASS'/>  
+    <IconDevImg imgUrl={icoSas} title='SASS'/> 
+    <IconDevImg imgUrl={icoFigma} title='FIGMA'/> 
     <IconDevImg imgUrl={icoBoo} title='BOOSTRAP'/>
     <IconDevImg imgUrl={icoHan} title='HANDLEBARS' clase='img-Filter'/>
     <IconDevImg imgUrl={icoFullResponive} title='DISEÑO RESPONSIVE'/>

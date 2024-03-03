@@ -43,7 +43,7 @@ function Inicio() {
       <div className='text-box-description'> 
       <h1 className='stateProfile'>Disponible para trabajar</h1>
       <h2 className='title-Name'>Hey, soy Federico</h2>
-      <h2 className='title-Profesion'>Desarrollador FullStack Jr</h2>
+      <h2 className='title-Profesion'>Desarrollador FullStack</h2>
       
       <p className='textDescrp'>Un apasionado Programador de <span className='text-span1'>Argentina 🇦🇷</span>.</p>
       <p className='textDescrp'>Mi experiencia actual se centra en el <span className='text-span2'>Desarrollo de Páginas Web y aplicaciones</span>.</p>
