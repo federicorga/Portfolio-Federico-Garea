@@ -9,7 +9,7 @@ import SectionInicio from "./components/SectionInicio/SectionInicio";
 import SectionPortfolio from "./components/SectionPortfolio/SectionPortfolio";
 import SectionSkills from "./components/SectionSkills/SectionSkills";
 import "./App.css";
-
+import Astronauta from './components/Astronauta/Astronauta';
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -29,15 +29,18 @@ function App() {
           <Navbar />
        
          
-         
           <section className="section-main">
-           
           <SectionInicio />
+       
             <SectionSkills />
+           
             <SectionPortfolio />
+          
             <SectionContact />
+            <Astronauta/>
             <footer>
               <BtnScroll />
+              
               <div className="links-footer">
                 <BtnLink imagSvg={iconLinkedIn} Href="https://www.linkedin.com/in/federicogarea/" toolTip="LinkedIn" />
                 <BtnLink imagSvg={iconGitHub} Href="https://github.com/federicorga" toolTip="Repositorio" />

@@ -37,7 +37,7 @@ body {
     --clr-gray-alt: #e0e0e0;
     --clr-details: #4d7be6;
     --clr-colorfondobtn:#008cff;
-    --clr-shadown-btn:#FFFF;
+    --clr-shadown-btn:none;
     --filtro-invert: none;
    
 }
