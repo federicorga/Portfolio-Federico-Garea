@@ -80,7 +80,13 @@ article p{
 
 
 @media screen and (max-width: 768px){
+
+    .section-imagen-card{
+        padding: 0;
+        padding-top: 1rem;
+    }
     .card{
+        flex-direction: column;
         width: 100%;
     }
 }
