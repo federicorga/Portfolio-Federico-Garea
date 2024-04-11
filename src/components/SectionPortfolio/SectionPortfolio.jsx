@@ -10,8 +10,8 @@ function SectionPortfolio() {
     <Title id='portfolio' text='Proyectos'/>
     <p className='textDescrp'>Esta sección contiene algunos de mis Proyectos. Puedes ver el resto ingresando a  mi repositorio de GitHub.</p>
     <div className='divArticles'>
-    <Article img="/img/paginasimg/sunsound.webp"  titleProyect='SunSound NFT' textP='Este proyecto simula un E-learning relacionado con la música, además cuenta una sección de de Artistas y sus obras musicales que se pueden reproducir representadas en NFTs. 🎵' 
-    iconLink={ [<BtnLink imagSvg={iconGitHub} Href='https://github.com/federicorga/SunSound' toolTip='ver repositorio'/>,<BtnLink imagSvg={iconlink} viewbox='0 0 24 24' Href='https://sunsound.netlify.app/' toolTip='ver deploy'/>]} skills={['HTML','CSS','JavaScript', 'Librerias']} />
+    <Article img="/img/paginasimg/sunsound.webp"  titleProyect='SunSound NFT' textP='Este proyecto simula un E-learning relacionado con la música, además cuenta una sección de de Artistas y sus obras musicales que se pueden reproducir. 🎵' 
+    iconLink={ [<BtnLink imagSvg={iconGitHub} Href='https://github.com/federicorga/SunSound-Plataform-Edit' toolTip='ver repositorio'/>,<BtnLink imagSvg={iconlink} viewbox='0 0 24 24' Href='https://sunsoundplataform.netlify.app/' toolTip='ver deploy'/>]} skills={['HTML','CSS','JavaScript', 'Librerias']} />
     <Article   img="/img/paginasimg/imagentieneda.webp" titleProyect='Gamer-Zone JavaScript Frontend ' textP='Este proyecto construido con JavaScript simula un Ecommerce para la venta videojuegos 🛒' 
     iconLink={ [<BtnLink imagSvg={iconGitHub} Href='https://github.com/federicorga/Ecommerce-Game-JavaScript' toolTip='ver repositorio'/>,<BtnLink imagSvg={iconlink} viewbox='0 0 24 24' Href='https://federicorga.github.io/Ecommerce-Game-JavaScript/' toolTip='ver deploy'/>]} skills={['HTML','CSS', 'JavaScript', 'Librerias']} />
      <Article img="/img/paginasimg/gamerzonereact.webp" titleProyect='Gamer-Zone React Frontend ' textP='Este proyecto esta creado con React usando una base de datos Firebase para almacenar los juegos. Simula la compra de videojuegos'
