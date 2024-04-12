@@ -1,5 +1,5 @@
 article{
-    background-color: var(--clr-gray-alt);
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, #7877c64d, #fff0);
    
     border-radius: 0.25rem;
     border: 1px solid var(--clr-gray);
@@ -50,7 +50,7 @@ article p{
     transition: all .3s;
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     align-items: center;
    }
  

@@ -1,7 +1,7 @@
 .link-email{
     color: var(--clr-details);
     transition: .2s;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .linkedin-contactdiv{

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
 
 * {
     margin: 0;
@@ -11,10 +12,15 @@
 }
 
 body {
-    background-color: var(--clr-bg);
-    background-image: url('../public/img/noise.webp');
+
     color: var(--clr-text);
     font-family: var(--ff-text);
+    font-size: 1.25rem;
+    font-weight: inherit;
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, #7877c64d, #fff0);
+   /* background-attachment: fixed;*/
+    background-color: rgb(10 10 10 / var(  --tw-bg-opacity));
+    color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 
@@ -23,7 +29,7 @@ body {
     /* VARIABLES WHITE */
     --ff-mono: 'DM Mono', monospace;
     --ff-title: 'Unbounded', sans-serif;
-    --ff-text: 'Rubik', sans-serif;
+    --ff-text: 'Onest variable', system-ui, sans-serif;
     --clr-textspan1:#387da9;
     --clr-textspan2:#828430;
     --clr-text2o: #387da9;
@@ -44,6 +50,8 @@ body {
 
 /* VARIABLES DARK */
 [data-theme="dark"] {
+    --tw-text-opacity: 1;
+    --tw-bg-opacity: 1;
     --clr-textspan1:#96a8c9;
     --clr-textspan2:#faeca5;
     --clr-bg: #1c1c1c;
