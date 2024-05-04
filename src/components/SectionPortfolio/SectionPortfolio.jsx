@@ -10,7 +10,7 @@ function SectionPortfolio() {
     <Title id='portfolio' text='Proyectos'/>
     <p className='textDescrp'>Esta sección contiene algunos de mis Proyectos. Puedes ver el resto ingresando a  mi repositorio de GitHub.</p>
     <div className='divArticles'>
-    <Article img="/img/paginasimg/ruletagame.webp"  titleProyect='S.T.A.L.K.E.R Roulette' textP='Un jugo de la ruleta rusa 1 vs 1 por turnos para jugar con amigos. Con tematica del mitico juego stalker y un monton de items que haran la partida mas emocionante.' 
+    <Article img="/img/paginasimg/ruletagame.webp"  titleProyect='S.T.A.L.K.E.R Roulette' textP='Un jugo de disparos  1 vs 1 por turnos, donde deberas usar tu ingenio y los items a disposicion del inventario para ganar. Con tematica del mitico juego stalker ' 
     iconLink={ [<BtnLink imagSvg={iconGitHub} Href='https://github.com/federicorga/Ruleta-Rusa-Game' toolTip='ver repositorio'/>,<BtnLink imagSvg={iconlink} viewbox='0 0 24 24' Href='https://ruletarusastalker.netlify.app/' toolTip='ver deploy'/>]} skills={['HTML','CSS','JavaScript','ReactJS', 'Librerias','Vite']} />
     
     <Article img="/img/paginasimg/sunsound.webp"  titleProyect='SunSound NFT' textP='Este proyecto simula un E-learning relacionado con la música, además cuenta una sección de de Artistas y sus obras musicales que se pueden reproducir. 🎵' 
